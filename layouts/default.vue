@@ -1,7 +1,7 @@
 <template>
 	<div class="grid place-items-start w-full font-dm text-gray-900">
 		<main
-			class="flex flex-col max-w-[43.5rem] w-full min-h-screen mx-auto px-8"
+			class="flex flex-col max-w-[43.5rem] w-full min-h-screen mx-auto sm:px-8 px-4"
 		>
 			<header
 				class="flex justify-between items-center w-full h-24 text-lg font-dm-mono font-medium"
