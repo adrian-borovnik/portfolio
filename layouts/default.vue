@@ -1,7 +1,7 @@
 <template>
 	<div class="grid place-items-start w-full font-dm text-gray-900">
 		<main
-			class="flex flex-col max-w-[43.5rem] w-full min-h-screen mx-auto"
+			class="flex flex-col max-w-[43.5rem] w-full min-h-screen mx-auto px-8"
 		>
 			<header
 				class="flex justify-between items-center w-full h-24 text-lg font-dm-mono font-medium"
@@ -9,7 +9,8 @@
 				<NuxtLink to="/" class="cursor-pointer"
 					>ADRIAN BOROVNIK</NuxtLink
 				>
-				<div class="flex space-x-4">
+				<Icon name="fa6-solid:bars" size="2rem" />
+				<div class="md:flex space-x-4 hidden">
 					<NuxtLink
 						v-for="link in links"
 						:key="link.page"
