@@ -21,7 +21,7 @@
 				<span
 					v-for="tech in project.techStack"
 					:key="tech"
-					class="border-black border-2 px-3 py-1"
+					class="border-black dark:border-zinc-500 border-2 px-3 py-1"
 					>{{ tech }}</span
 				>
 			</div>

@@ -24,13 +24,9 @@
 					:key="link.link"
 					:href="link.to"
 					target="_blank"
-					class="flex flex-col sm:flex-row justify-start items-center space-y-2 sm:space-x-2"
+					class="flex flex-col sm:flex-row justify-start items-center space-y-2 sm:space-y-0 sm:space-x-2"
 				>
-					<Icon
-						:name="`logos:${link.icon}`"
-						color="black"
-						size="1.2rem"
-					/>
+					<Icon :name="`logos:${link.icon}`" size="1.2rem" />
 					<span>{{ link.link }}</span>
 				</a>
 			</div>
