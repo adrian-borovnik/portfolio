@@ -1,12 +1,12 @@
 <template>
 	<div
-		class="grid place-items-start w-full font-dm text-gray-900 dark:text-zinc-200 bg-white dark:bg-zinc-900 relative"
+		class="grid place-items-start w-full font-sans text-gray-900 dark:text-zinc-200 bg-white dark:bg-zinc-900 relative"
 	>
 		<main
 			class="flex flex-col max-w-[43.5rem] w-full min-h-screen mx-auto sm:px-8 px-4"
 		>
 			<header
-				class="flex justify-between items-center w-full h-24 text-lg font-dm-mono font-medium"
+				class="flex justify-between items-center w-full h-24 text-lg font-mono font-medium"
 			>
 				<NuxtLink to="/" class="cursor-pointer"
 					>ADRIAN BOROVNIK</NuxtLink
@@ -36,7 +36,7 @@
 				<slot />
 			</article>
 			<footer
-				class="flex justify-between items-center w-full h-24 text-lg font-dm-mono font-medium"
+				class="flex justify-between items-center w-full h-24 text-lg font-mono font-medium"
 			>
 				<NuxtLink to="/" class="cursor-pointer"
 					>ADRIAN BOROVNIK</NuxtLink

@@ -12,7 +12,10 @@ export default {
 		'content/**/*.md',
 	],
 	theme: {
-		extend: {},
+		fontFamily: {
+			sans: ['DM Sans', 'sans-serif'],
+			mono: ['DM Mono', 'monospace'],
+		},
 	},
 	plugins: [],
 }

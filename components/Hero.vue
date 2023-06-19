@@ -17,7 +17,7 @@
 				</span>
 			</p>
 			<div
-				class="w-full flex justify-center md:justify-start space-x-4 font-dm-mono font-medium"
+				class="w-full flex justify-center md:justify-start space-x-4 font-mono font-medium"
 			>
 				<a
 					v-for="link in socialLinks"

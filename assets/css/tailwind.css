@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
-	.font-dm {
+@layer components {
+	/* .font-dm {
 		font-family: 'DM Sans', sans-serif;
 	}
 
 	.font-dm-mono {
 		font-family: 'DM Mono', monospace;
-	}
+	} */
 }
