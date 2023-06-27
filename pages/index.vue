@@ -1,4 +1,5 @@
 <template>
+	<Title>Adrian Borovnik</Title>
 	<Hero />
 	<div class="flex flex-col space-y-12">
 		<p class="font-dm-mono font-medium text-lg">RECENT PROJECTS</p>

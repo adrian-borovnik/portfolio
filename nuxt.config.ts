@@ -13,4 +13,17 @@ export default defineNuxtConfig({
 			'DM Mono': [400, 500, 700],
 		},
 	},
+	app: {
+		head: {
+			charset: 'utf-8',
+			viewport: 'width=device-width, initial-scale=1',
+			meta: [
+				{
+					hid: 'author',
+					name: 'author',
+					content: 'Adrian Borovnik',
+				},
+			],
+		},
+	},
 })
